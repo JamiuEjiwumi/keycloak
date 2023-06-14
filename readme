@@ -1,0 +1,4 @@
+helm install lafia-keycloak oci://registry-1.docker.io/bitnamicharts/keycloak -f values.yaml -n staging
+
+to update
+helm upgrade --install lafia-keycloak oci://registry-1.docker.io/bitnamicharts/keycloak -f values.yaml -n staging
